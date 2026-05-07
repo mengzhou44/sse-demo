@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.example:sse-demo >------------------------
+[INFO] Building sse-demo 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ sse-demo >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ sse-demo ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ sse-demo ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ sse-demo ---
+[INFO] skip non existing resourceDirectory /Users/mengzhou/projects/sse-demo/backend/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ sse-demo ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.0:run (default-cli) < test-compile @ sse-demo <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.0:run (default-cli) @ sse-demo ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-05-07T09:02:49.274-06:00  INFO 96513 --- [           main] com.example.ssedemo.SseDemoApplication   : Starting SseDemoApplication using Java 21.0.10 with PID 96513 (/Users/mengzhou/projects/sse-demo/backend/target/classes started by mengzhou in /Users/mengzhou/projects/sse-demo/backend)
+2026-05-07T09:02:49.275-06:00  INFO 96513 --- [           main] com.example.ssedemo.SseDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-07T09:02:49.483-06:00  INFO 96513 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2026-05-07T09:02:49.486-06:00  INFO 96513 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-07T09:02:49.486-06:00  INFO 96513 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-05-07T09:02:49.499-06:00  INFO 96513 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-07T09:02:49.499-06:00  INFO 96513 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 214 ms
+2026-05-07T09:02:49.589-06:00  INFO 96513 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path ''
+2026-05-07T09:02:49.591-06:00  INFO 96513 --- [           main] com.example.ssedemo.SseDemoApplication   : Started SseDemoApplication in 0.41 seconds (process running for 0.508)
+2026-05-07T09:02:54.431-06:00  INFO 96513 --- [nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-07T09:02:54.431-06:00  INFO 96513 --- [nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-07T09:02:54.432-06:00  INFO 96513 --- [nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
